@@ -27,5 +27,7 @@ namespace Sabo_Gabriel_Lab2.Models
 
         [ValidateNever]
         public Publisher? Publisher { get; set; }
+
+        public ICollection<BookCategory>? BookCategories { get; set; }
     }
 }
